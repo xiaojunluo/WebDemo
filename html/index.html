@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Show You How To Add HTML5 Video</title>
-    </head>
-    <body>
-        <video src="../videos/sky.mp4"
-        poster="../images/sky.jpg"
-        width="600" height="600"
-        preload
-        controls
-        loop>
-        <p>A video of the sky</p>
-    </video>
-    </body>
+<html lang="zh">
+<header>
+     <link href="../css/styles.css" type="text/css"
+        rel="stylesheet"/>
+    <title>
+        Little LiveDemo
+    </title>
+    <h1>MyLiveDemo</h1>
+</header>
+
+<body>
+    <section class="creatroom">
+        <form action="url">
+            <p>请输入房间号：</p>
+            <input type="text" id="roomname" size="20"/>
+            <input type="submit" name="create" value="创建直播" />
+        </form>
+    </section>
+
+    <section class="roomlist">
+        <p>以下房间正在直播：</p>
+        <ul>
+            <li><a href="Publish.html">room1</a></li>
+            <li>room2</li>
+            <li>room3</li>
+            <li>room4</li>
+        </ul>
+    </section>
+</body>
+<footer>
+    &copy; 2018 Luoxiaoxiao
+</footer>
+
 </html>

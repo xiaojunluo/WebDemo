@@ -1,7 +1,90 @@
-body{
-    front-family:arial;
-    background-color:rgb(185,179,175);
+header
+{
+    font-family:arial;
+    height:100px;
+    background-image:url("../images/header.jpg");
+    padding:10px 10px 5px 10px ;
+    margin: 10px 10px 10px 10px;
 }
-h1{
-    color:rgb(255,255,255);
+body
+{
+    font-family:arial;
+    background-color:#C8C8C8;
+    background-color:hsla(0,0%,78%,0.5);
+    /*background-image:linear-gradient(to bottom,#fff,#623 100%);*/
+
+}
+
+section.creatroom
+{
+    float:left;
+    width:300;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgba(19, 62, 68, 0.5);
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 500px;
+    text-align: left;
+    padding:10px 10px 10px 10px ;
+    margin:10px 10px 10px 10px;
+}
+
+section.roomlist
+{
+    float:right;
+    width:600px;
+    border-width: 2px;
+    border-style: groove;
+    border-color:rgba(19, 62, 68, 0.5);
+    border-radius: 10px;
+    min-width: 500px;
+    max-width: 500px;
+    max-height: 700px;
+    /*text-align: right;*/
+    padding:10px 10px 10px 10px ;
+    margin:10px 10px 10px 10px;
+}
+p
+{
+    padding:10px 10px 10px 5px ;
+    margin:5px 10px 10px 10px;
+}
+input
+{
+    font-size:100%;
+    color: #5a5854;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 10px 10px 10px 10px;
+	background-repeat: no-repeat;
+	background-position: 8px 9px;
+	display: block;
+	margin: 10px 10px 10px 10px;
+}
+
+input#roomname
+{
+    background-image: url("../images/roomname.png");
+    padding-left: 28px;
+}
+u1
+{
+    list-style: inside circle;
+}
+li
+{
+    margin:5px 0px 0px 0px;
+}
+footer
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    clear:both;
+    font-size:80%;
+    padding:7px 0px 0px 20px;
 }
