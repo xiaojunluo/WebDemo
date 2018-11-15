@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+<script src="../jZego-rtc-1.1.6.js"></script>
+
+<script>
+var zg = new ZegoClient(), _config = {
+    "appid": 2685526654,
+    "idName": new Date().getTime() + '',
+    "nickName": 'u' + new Date().getTime(),
+    "server": "wss://test2-wsliveroom-api.zego.im:8282/ws",
+    "logLevel": 0,
+    "logUrl": "wss://wslogger-test.zego.im:8282/log",
+    "remoteLogLevel": 0
+}
+
+zg.config(_config)
+
+</script>
+
+
 <html lang="zh">
 <header>
      <link href="../css/styles.css" type="text/css"
@@ -21,7 +39,7 @@
     <section class="roomlist">
         <p>以下房间正在直播：</p>
         <ul>
-            <li><a href="Publish.html">room1</a></li>
+            <li><a href="Play.html">room1</a></li>
             <li>room2</li>
             <li>room3</li>
             <li>room4</li>
